@@ -1,5 +1,6 @@
 @media screen and ( min-device-width: 275px){
   body {
+    opacity: 0.97;
     padding: 0;
     margin: 0;
     background-image: url("images/rocket1.png");
@@ -42,34 +43,35 @@
   }
 
   #soundcloud iframe {
-    float: left;
-    margin: 11% 1% 0% 1%;
-    width: 48%;
+    float: none;
+    margin: 11% 5% -6% 5%;
+    width: 90%;
     height: 550px;
   }
 
   .post {
     background-color: #404f47;
-    border: 1px solid #5b416d;
+    border: 1px solid #988B8E;
     border-radius: 5px;
     float: left;
     padding: 1%;
-    margin: 10% 0 5% 4%;
+    margin: 10% 0 -6% 4%;
     width: 90%;
   }
   
   .post-date {
    font-family: 'Exo';
-   font-size: 1.2em;
+   font-size: 0.5em;
   }
 
   .post-title {
     font-family: 'Ravi Prakash';
     font-size: 2.8em;
-    width: 85%;
-    margin: 1% -10% 1% 3%;
-    text-shadow:-1px 0 #5b416d, 0 1px #5b416d, -1px 0 #5b416d, 0 -1px #5b416d;
-
+    line-height: 1em;
+    width: 95%;
+    margin: 1% -15% 1% 3%;
+    text-shadow:-1px 0 #988B8E, 0 1px #988B8E, -1px 0 #988B8E, 0 -1px #988B8E;
+    text-transform: uppercase;
   }
 
   .post-content {
@@ -80,6 +82,15 @@
     font-size: 1.8em;
   }
 
+  .post-content a {
+    color: cornflowerblue;
+  }
+
+  #bday-show-post-content {
+    width: 90%;
+    font-size: 1.4em;
+  }
+
   article iframe {
     height: 225px;
     width: 50%;
@@ -87,6 +98,11 @@
     margin: 2%;
     border: 1px solid black;
     border-radius: 2px;
+  }
+
+  #bandcamp-sale iframe {
+    margin: 1%;
+    height: 50px;
   }
 
   #video {
@@ -104,9 +120,9 @@
   }
 
   #musicvid iframe {
-    width: 90%;
+    width: 92%;
     height: 500px;
-    margin: 0 5%;
+    margin: 0 4%;
 
   }
 
@@ -118,13 +134,13 @@
 
   #liveshows iframe {
     float: none;
-    margin: 5% 5% 0 5%;
-    width: 90%;
+    margin: 5% 4% 0 4%;
+    width: 92%;
     height: 500px;
   }
 }
 
-@media screen and ( min-device-width: 500px){
+@media screen and ( min-device-width: 1025px){
 	body {
     padding: 0;
  		margin: 0;
@@ -165,22 +181,28 @@
 
  	.menubar {
  		height: 40px;
- 		width: 50%;
+ 		width: 100%;
     position: fixed;
-    left: 28.4%;
-    right: 28%;
     bottom: 81%;
     display: inline;
+    margin: 0;
+    padding: 0;
  	}
 
   .menubar ul{
+    position: fixed;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    padding: 0;
     margin: 0;
   }
 
  	.menubar li {
  		float: left;
  		display: inline;
- 		padding: 0 9% 5% 0;
+ 		margin: 0 7.5% 5% 7.5%;
+    width: 10%;
     
  	}
 
@@ -206,9 +228,9 @@
 
   #soundcloud iframe {
     float: left;
-    margin: 11% 1% 0% 1%;
-    width: 48%;
-    height: 450px;
+    margin: 11% 10% 0% 10%;
+    width: 80%;
+    height: 500px;
   }
 
   #news {
@@ -219,11 +241,11 @@
 
   .post {
     background-color: #404f47;
-    border: 1px solid #5b416d;
+    border: 1px solid #988B8E;
     border-radius: 5px;
     float: left;
     padding: 1%;
-    margin: 11% 0 5% 20%;
+    margin: 11% 0 -8% 20%;
     width: 60%;
   }
   
@@ -234,11 +256,11 @@
 
   .post-title {
     font-family: 'Ravi Prakash';
+    text-transform: uppercase;
     font-size: 2em;
     width: 85%;
     margin: 1% -10% 1% 3%;
-    text-shadow:-1px 0 #5b416d, 0 1px #5b416d, -1px 0 #5b416d, 0 -1px #5b416d;
-
+    text-shadow:-1px 0 #988B8E, 0 1px #988B8E, -1px 0 #988B8E, 0 -1px #988B8E;
   }
 
   .post-content {
@@ -247,6 +269,19 @@
     margin: 1% 4% 4% 4%;
     font-family: 'Exo';
     font-size: 1.2em;
+  }
+
+  #bday-show-post {
+    margin-bottom: 0;
+  }
+
+  #bday-show-post-content {
+    width: 80%;
+    font-size: 1.2em;
+  }
+
+  #bday-show-post-content a {
+    color: cornflowerblue;
   }
 
   article iframe {
