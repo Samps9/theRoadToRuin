@@ -5,6 +5,7 @@
     margin: 0;
     background-image: url("images/rocket1.png");
     background-attachment: fixed;
+    background-size: cover;
   }
 
   header {
@@ -146,6 +147,7 @@
  		margin: 0;
  		background-image: url("images/rocket1.png");
     background-attachment: fixed;
+    background-size: cover;
  	}
 
  	#container {
@@ -170,7 +172,7 @@
  		width: 100%;
     margin-bottom: 5%;
     position: relative;
-    top: 60px;
+    top: 8vh;
  	}
 
  	.homeimg img {
@@ -183,7 +185,6 @@
  		height: 40px;
  		width: 100%;
     position: fixed;
-    bottom: 81%;
     display: inline;
     margin: 0;
     padding: 0;
@@ -201,14 +202,14 @@
  	.menubar li {
  		float: left;
  		display: inline;
- 		margin: 0 7.5% 5% 7.5%;
+ 		margin: 1% 5% 5%  5%;
     width: 10%;
     
  	}
 
  	.menubar a {
     height: 5%;
- 		font-size: 2em;
+ 		font-size: 1.8vw;
     font-family: 'Caesar Dressing';
  		padding: 0;
  		margin: 0;
@@ -228,7 +229,7 @@
 
   #soundcloud iframe {
     float: left;
-    margin: 11% 10% 0% 10%;
+    margin: 30vh 10% 0% 10%;
     width: 80%;
     height: 500px;
   }
@@ -309,7 +310,7 @@
 
  	#musicvid iframe {
  		width: 80%;
-    height: 500px;
+    height: 35vw;
     margin: 0 10% 0 10%;
 
  	}
