@@ -318,6 +318,7 @@
  	#liveshows {
  		width: 100%;
  		margin: 5% auto;
+    margin-bottom: 25%;
     float: left;
  	}
 
@@ -327,5 +328,72 @@
     width: 48%;
     height:400px;
  	}
+
+  #contact {
+    width: 100%;
+    position: relative;
+    clear: left;
+  }
+
+
+  #contact-inner {
+    float: left;
+    width: 60%;
+    height: 250px;
+    margin: 0 20% 20% 20%; 
+    background-color: #404f47;
+    border: 1px solid #988B8E;
+    border-radius: 5px;
+  }
+
+ #contact-inner h3 {
+    float: left;
+    width: 50%;
+    margin: 0 30%;
+    font-family: 'Ravi Prakash';
+    text-transform: uppercase;
+    font-size: 2em;
+    text-shadow:-1px 0 #988B8E, 0 1px #988B8E, -1px 0 #988B8E, 0 -1px #988B8E;
+  }
+
+  #contact-inner ul {
+    float: left;
+    clear: left;
+    margin-left: 5vw;
+  }
+
+  #contact-inner li {
+    float: left;
+    display: inline;
+    font-family: 'Exo';
+    font-size: 1.6em;
+  }
+
+  #contact-inner i {
+    margin: 0 4vw;
+    transition: 
+      all .5s, 
+      transform .5s;
+  }
+
+  #fb {
+    color:#3b5998;
+  }
+
+  #fb:hover {
+    font-size: 2.3em;
+    text-shadow:-1px 0 #988B8E, 0 1px #988B8E, -1px 0 #988B8E, 0 -1px #988B8E;
+
+  }
+
+  #sc {
+    color:#ff5500;
+  }
+
+  #sc:hover {
+    font-size: 2.3em;
+    text-shadow:-1px 0 #988B8E, 0 1px #988B8E, -1px 0 #988B8E, 0 -1px #988B8E;
+
+  }
 }
  
