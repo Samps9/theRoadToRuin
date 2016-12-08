@@ -21,6 +21,10 @@
     border-radius: 5px;
   }
 
+  a:hover {
+    cursor: pointer;
+  }
+
   .menubar {
     display: none;
   }
@@ -104,6 +108,16 @@
   #bandcamp-sale iframe {
     margin: 1%;
     height: 50px;
+  }
+
+  #heartbeat-cover {
+    background-image: url(images/heartbeatcover.jpg);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 425px;
+    width: 425px;
+    margin-left: 2vw;
+    float: left;
   }
 
   #video {
