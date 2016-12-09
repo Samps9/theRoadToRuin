@@ -115,7 +115,7 @@
     background-size: contain; 
     background-repeat: no-repeat;
     height: 425px;
-    width: 425px;
+    width: 50%;
     margin-left: 2vw;
     float: left;
   }
@@ -284,6 +284,17 @@
     margin: 1% 4% 4% 4%;
     font-family: 'Exo';
     font-size: 1.2em;
+  }
+
+
+  #heartbeat-cover {
+    background-image: url(images/heartbeatcover.jpg);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 30vw;
+    width: 50%;
+    margin-left: 2vw;
+    float: left;
   }
 
   #bday-show-post {
