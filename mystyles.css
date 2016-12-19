@@ -186,7 +186,7 @@
   
   header img {
     image-repeat: no-repeat;
-    height: 80px;
+    height: 6vw;
     width: 70%;
     border-radius: 5px;
   }
@@ -204,6 +204,7 @@
     font-size: 0.8vw;
     font-family: 'Exo';
     color: orange;
+    margin-top: 20px;
     margin-bottom: 15px;
   }
 
