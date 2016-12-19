@@ -1,4 +1,4 @@
-@media screen and ( min-device-width: 275px){
+@media all and ( min-device-width: 275px){
   body {
     opacity: 0.97;
     padding: 0;
@@ -19,6 +19,10 @@
     height: 90px;
     width: 80%;
     border-radius: 5px;
+  }
+
+   #mini-contact {
+    display: none
   }
 
   a:hover {
@@ -153,6 +157,10 @@
     width: 92%;
     height: 500px;
   }
+
+  #contact {
+    display: none;
+  }
 }
 
 @media screen and ( min-device-width: 1025px){
@@ -172,7 +180,8 @@
  	header {
  		width: 100%;
     margin: 0 auto;
-    margin-top: 0.2%
+    margin-top: 0.2%;
+    clear: all;
  	}
   
   header img {
@@ -180,6 +189,55 @@
     height: 80px;
     width: 70%;
     border-radius: 5px;
+  }
+
+  #mini-contact {
+    display: inline-block;
+    width: 10%;
+    position: absolute;
+    left: 87%;
+    top: -1%;
+  }
+
+  #mini-contact h6 {
+    position: relative;
+    font-size: 0.8vw;
+    font-family: 'Exo';
+    color: orange;
+    margin-bottom: 15px;
+  }
+
+  #mini-contact a {
+    text-decoration: none;
+    position: relative;
+    left: 20%;
+  }
+
+  #mini-contact a i {
+    font-size: 2vw;
+    transition: 
+      all .3s, 
+      transform .3s;
+  }
+
+  #mini-fb {
+    margin: 0 25% 0 0;
+    color:#3b5998;
+  }
+
+  #mini-sc {
+    margin: 0;
+    color:#ff5500;
+  }
+
+  #mini-fb:hover {
+    font-size: 2.1vw;
+    text-shadow:-0.5px 0 #ffffff, 0 0.5px #ffffff, -0.5px 0 #ffffff, 0 -0.5px #ffffff;
+  }
+
+  #mini-sc:hover {
+    font-size: 2.1vw;
+    text-shadow:-0.5px 0 #ffffff, 0 0.5px #ffffff, -0.5px 0 #ffffff, 0 -0.5px #ffffff;
   }
 
  	.homeimg {
@@ -355,6 +413,7 @@
  	}
 
   #contact {
+    display: block;
     width: 100%;
     position: relative;
     clear: left;
@@ -397,8 +456,8 @@
   #contact-inner i {
     margin: 0 4vw;
     transition: 
-      all .5s, 
-      transform .5s;
+      all .3s, 
+      transform .3s;
   }
 
   #fb {
@@ -406,9 +465,8 @@
   }
 
   #fb:hover {
-    font-size: 2.3em;
-    text-shadow:-1px 0 #988B8E, 0 1px #988B8E, -1px 0 #988B8E, 0 -1px #988B8E;
-
+    font-size: 2.1em;
+    text-shadow:-0.5px 0 #ffffff, 0 0.5px #ffffff, -0.5px 0 #ffffff, 0 -0.5px #ffffff;
   }
 
   #sc {
@@ -416,9 +474,8 @@
   }
 
   #sc:hover {
-    font-size: 2.3em;
-    text-shadow:-1px 0 #988B8E, 0 1px #988B8E, -1px 0 #988B8E, 0 -1px #988B8E;
-
+    font-size: 2.1em;
+    text-shadow:-0.5px 0 #ffffff, 0 0.5px #ffffff, -0.5px 0 #ffffff, 0 -0.5px #ffffff;
   }
 }
  
