@@ -91,13 +91,16 @@
     font-size: 1.8em;
   }
 
-  .post-content a {
+  .post-content a, .no-widget-post-content a {
     color: cornflowerblue;
   }
 
-  #no-widget-post-content {
+  .no-widget-post-content {
     width: 90%;
     font-size: 1.4em;
+    float: left;
+    margin: 2% 4%;
+    font-family: 'Exo';
   }
 
   article iframe {
@@ -233,12 +236,12 @@
 
   #mini-fb:hover {
     font-size: 2.1vw;
-    text-shadow:-0.5px 0 #ffffff, 0 0.5px #ffffff, -0.5px 0 #ffffff, 0 -0.5px #ffffff;
+    text-shadow:0.7px 0 #dbdbdb, 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb, 0 0.7px #dbdbdb;
   }
 
   #mini-sc:hover {
     font-size: 2.1vw;
-    text-shadow:-0.5px 0 #ffffff, 0 0.5px #ffffff, -0.5px 0 #ffffff, 0 -0.5px #ffffff;
+    text-shadow:0.7px 0 #dbdbdb, 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb, 0 0.7px #dbdbdb;
   }
 
  	.homeimg {
@@ -467,7 +470,7 @@
 
   #fb:hover {
     font-size: 2.1em;
-    text-shadow:-0.5px 0 #ffffff, 0 0.5px #ffffff, -0.5px 0 #ffffff, 0 -0.5px #ffffff;
+    text-shadow:0.7px 0 #dbdbdb, 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb, 0 0.7px #dbdbdb;
   }
 
   #sc {
@@ -476,7 +479,7 @@
 
   #sc:hover {
     font-size: 2.1em;
-    text-shadow:-0.5px 0 #ffffff, 0 0.5px #ffffff, -0.5px 0 #ffffff, 0 -0.5px #ffffff;
+    text-shadow:0.7px 0 #dbdbdb, 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb, 0 0.7px #dbdbdb;
   }
 }
  
