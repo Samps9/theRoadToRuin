@@ -60,7 +60,7 @@
 
   .post {
     background-color: #404f47;
-    border: 1px solid #988B8E;
+    border: 1px solid #2E4057;
     border-radius: 5px;
     float: left;
     padding: 1%;
@@ -79,7 +79,7 @@
     line-height: 1em;
     width: 95%;
     margin: 1% -15% 1% 3%;
-    text-shadow:-1px 0 #988B8E, 0 1px #988B8E, -1px 0 #988B8E, 0 -1px #988B8E;
+    text-shadow:-1px 0 #2E4057, 0 1px #2E4057, -1px 0 #2E4057, 0 -1px #2E4057;
     text-transform: uppercase;
   }
 
@@ -235,12 +235,12 @@
   }
 
   #mini-fb:hover {
-    font-size: 2.1vw;
+    font-size: 2.05vw;
     text-shadow:0.7px 0 #dbdbdb, 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb, 0 0.7px #dbdbdb;
   }
 
   #mini-sc:hover {
-    font-size: 2.1vw;
+    font-size: 2.05vw;
     text-shadow:0.7px 0 #dbdbdb, 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb, 0 0.7px #dbdbdb;
   }
 
@@ -318,7 +318,7 @@
 
   .post {
     background-color: #404f47;
-    border: 1px solid #988B8E;
+    border: 1px solid #2E4057;
     border-radius: 5px;
     float: left;
     padding: 1%;
@@ -329,6 +329,7 @@
   .post-date {
    font-family: 'Exo';
    font-size: 1em;
+   text-shadow: -0.5px 0 #2E4057, 0 0.5px #2E4057, -0.5px 0 #2E4057, 0 -0.5px #2E4057;
   }
 
   .post-title {
@@ -337,7 +338,7 @@
     font-size: 2em;
     width: 85%;
     margin: 1% -10% 1% 3%;
-    text-shadow:-1px 0 #988B8E, 0 1px #988B8E, -1px 0 #988B8E, 0 -1px #988B8E;
+    text-shadow:-0.5px 0 #2E4057, 0 0.5px #2E4057, -0.5px 0 #2E4057, 0 -0.5px #2E4057;
   }
 
   .post-content {
@@ -430,7 +431,7 @@
     height: 250px;
     margin: 0 20% 20% 20%; 
     background-color: #404f47;
-    border: 1px solid #988B8E;
+    border: 1px solid #2E4057;
     border-radius: 5px;
   }
 
@@ -441,7 +442,7 @@
     font-family: 'Ravi Prakash';
     text-transform: uppercase;
     font-size: 2em;
-    text-shadow:-1px 0 #988B8E, 0 1px #988B8E, -1px 0 #988B8E, 0 -1px #988B8E;
+    text-shadow:-1px 0 #2E4057, 0 1px #2E4057, -1px 0 #2E4057, 0 -1px #2E4057;
   }
 
   #contact-inner ul {
@@ -469,7 +470,7 @@
   }
 
   #fb:hover {
-    font-size: 2.1em;
+    font-size: 2.05em;
     text-shadow:0.7px 0 #dbdbdb, 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb, 0 0.7px #dbdbdb;
   }
 
@@ -478,7 +479,7 @@
   }
 
   #sc:hover {
-    font-size: 2.1em;
+    font-size: 2.05em;
     text-shadow:0.7px 0 #dbdbdb, 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb, 0 0.7px #dbdbdb;
   }
 }
