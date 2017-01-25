@@ -438,8 +438,10 @@
  #contact-inner h3 {
     float: left;
     width: 50%;
-    margin: 0 30%;
-    font-family: 'Caesar Dressing';
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 35%;
+    font-family: 'Ravi Prakash';
     text-transform: uppercase;
     font-size: 2em;
     text-shadow:-1px 0 #2E4057, 0 1px #2E4057, -1px 0 #2E4057, 0 -1px #2E4057;
@@ -455,7 +457,7 @@
     float: left;
     display: inline;
     font-family: 'Exo';
-    font-size: 1.6em;
+    font-size: 1.6vw;
   }
 
   #contact-inner i {
@@ -470,8 +472,8 @@
   }
 
   #fb:hover {
-    font-size: 2.05em;
-    text-shadow:0.7px 0 #dbdbdb, 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb, 0 0.7px #dbdbdb;
+    font-size: 3.05vw;
+    text-shadow: 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb, 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb;
   }
 
   #sc {
@@ -479,8 +481,8 @@
   }
 
   #sc:hover {
-    font-size: 2.05em;
-    text-shadow:0.7px 0 #dbdbdb, 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb, 0 0.7px #dbdbdb;
+    font-size: 3.05vw;
+    text-shadow: 0 0.7px  #dbdbdb, 0.7px 0 #dbdbdb, 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb;
   }
 }
  
