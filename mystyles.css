@@ -428,7 +428,7 @@
   #contact-inner {
     float: left;
     width: 60%;
-    height: 250px;
+    height: 200px;
     margin: 0 20% 20% 20%; 
     background-color: #404f47;
     border: 1px solid #2E4057;
@@ -443,14 +443,14 @@
     margin-left: 35%;
     font-family: 'Ravi Prakash';
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 2.5vw;
     text-shadow:-1px 0 #2E4057, 0 1px #2E4057, -1px 0 #2E4057, 0 -1px #2E4057;
   }
 
   #contact-inner ul {
     float: left;
     clear: left;
-    margin-left: 5vw;
+    margin-left: 10vw;
   }
 
   #contact-inner li {
