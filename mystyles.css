@@ -234,12 +234,7 @@
     color:#ff5500;
   }
 
-  #mini-fb:hover {
-    font-size: 2.05vw;
-    text-shadow:0.7px 0 #dbdbdb, 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb, 0 0.7px #dbdbdb;
-  }
-
-  #mini-sc:hover {
+  #mini-sc:hover, #mini-fb:hover {
     font-size: 2.05vw;
     text-shadow:0.7px 0 #dbdbdb, 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb, 0 0.7px #dbdbdb;
   }
@@ -428,7 +423,7 @@
   #contact-inner {
     float: left;
     width: 60%;
-    height: 200px;
+    height: 15vw;
     margin: 0 20% 20% 20%; 
     background-color: #404f47;
     border: 1px solid #2E4057;
@@ -450,7 +445,8 @@
   #contact-inner ul {
     float: left;
     clear: left;
-    margin-left: 10vw;
+    margin-left: 12vw;
+    margin-top: 0px;
   }
 
   #contact-inner li {
@@ -471,18 +467,17 @@
     color:#3b5998;
   }
 
-  #fb:hover {
-    font-size: 3.05vw;
-    text-shadow: 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb, 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb;
-  }
-
   #sc {
     color:#ff5500;
   }
 
-  #sc:hover {
+ /* #bc {
+    color: #639aa9; 
+  }*/
+
+   #fb:hover, #sc:hover, #bc:hover {
     font-size: 3.05vw;
-    text-shadow: 0 0.7px  #dbdbdb, 0.7px 0 #dbdbdb, 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb;
+    text-shadow: 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb, 0 0.7px #dbdbdb, 0.7px 0 #dbdbdb;
   }
 }
  
