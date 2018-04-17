@@ -93,6 +93,11 @@
 
   .post-content a, .no-widget-post-content a {
     color: cornflowerblue;
+    text-decoration: initial;
+  }
+
+  .post-content a:hover, .no-widget-post-content a:hover {
+    text-decoration: underline;
   }
 
   .no-widget-post-content {
@@ -241,7 +246,7 @@
 
   #mini-sc:hover, #mini-fb:hover, #mini-bc:hover {
     font-size: 2.05vw;
-    text-shadow:0.7px 0 #e5f7cd, 0 0.7px #e5f7cd, 0.7px 0 #e5f7cd, 0 0.7px #e5f7cd;
+    text-shadow:0.7px 0 #d7d4f4, 0 0.7px #d7d4f4, 0.7px 0 #d7d4f4, 0 0.7px #d7d4f4;
   }
 
  	.homeimg {
@@ -482,7 +487,7 @@
 
    #fb:hover, #sc:hover, #bc:hover {
     font-size: 3.3vw;
-    text-shadow: 0 0.5px #e5f7cd, 0.5px 0 #e5f7cd, 0 0.5px #e5f7cd, 0.5px 0 #e5f7cd;
+    text-shadow: 0.0px 0 #d7d4f4, 0.5px 0 #d7d4f4, 0 0.5px #d7d4f4, 0.5px 0 #d7d4f4;
   }
 }
  
