@@ -224,7 +224,7 @@
   }
 
   #mini-contact a i {
-    font-size: 2vw;
+    font-size: 1.9vw;
     transition: 
       all .3s, 
       transform .3s;
@@ -310,9 +310,9 @@
 
   #playlists iframe {
     float: left;
-    margin: 30vh 0% 0% 12%;
+    margin: 30vh 0% 0% 6.5%;
     width: 17%;
-    height: 550px;
+    height: 450px;
     border: none;
   }
 
