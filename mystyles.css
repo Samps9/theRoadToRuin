@@ -333,6 +333,12 @@
     font-size: 1.8rem;
   }
 
+  .release-text:not(.single ) a:hover {
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000; 
+  }
+
   .release-text a, .post-content a  {
     color:#0f91ff;
     margin-top: 20px;
@@ -341,9 +347,6 @@
 
   .release-text a:hover, .post-content a:hover {
     color: #ECA72C;
-    -moz-box-shadow: inset 0 0 10px #000000;
-    -webkit-box-shadow: inset 0 0 10px #000000;
-    box-shadow: inset 0 0 10px #000000;
   }
 
   #news {
