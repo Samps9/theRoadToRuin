@@ -96,7 +96,7 @@
     text-decoration: none;
   }
 
-  .release-text:not(.single ) a {
+  .bc-button {
     background: 
       linear-gradient(
         rgba(38, 38, 38, 0.95), 
@@ -333,10 +333,10 @@
     font-size: 1.8rem;
   }
 
-  .release-text:not(.single ) a:hover {
+  .bc-button:hover {
     -moz-box-shadow: inset 0 0 10px #000000;
     -webkit-box-shadow: inset 0 0 10px #000000;
-    box-shadow: inset 0 0 10px #000000; 
+    box-shadow: inset 0 0 10px #000000;
   }
 
   .release-text a, .post-content a  {
