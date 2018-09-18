@@ -203,11 +203,16 @@
 
   #sc {
     color:#ff5500;
-    margin: 0 5%;
+    margin: 0 4%;
   }
 
   #bc {
     color: #639aa9;
+  }
+
+  #spot {
+    color: #1fd662;
+    margin-left: 4%;
   }
 }
 
@@ -276,7 +281,7 @@
     text-decoration: none;
     position: relative;
     top: 15%;
-    left: 25%;
+    left: 20%;
   }
 
   #mini-contact a i {
@@ -285,17 +290,17 @@
   }
 
   #mini-fb {
-    margin: 0 12% 0 0;
+    margin: 0 8% 0 0;
     color:#3b5998;
   }
 
   #mini-sc {
-    margin: 0 12% 0 0;
+    margin: 0 8% 0 0;
     color:#ff5500;
   }
 
   #mini-bc {
-    margin: 0;
+    margin: 0 8% 0 0;
     color: #639aa9;
   }
 
