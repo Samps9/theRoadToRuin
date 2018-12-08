@@ -107,6 +107,9 @@
     width: 650px;
     border: 1px solid #2E4057;
     border-radius: 0.25rem;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
   }
 
   .release-text {
@@ -164,6 +167,9 @@
    padding: 1%;
    width: 66%;
    color: #2c5793;
+   -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
   }
   
   .post-date {
