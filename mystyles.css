@@ -155,11 +155,6 @@
   }
 
   .post {
-   /* background: 
-      linear-gradient(
-        rgba(45, 45, 45, 0.95), 
-        rgba(45, 45, 45, 0.95)
-      );*/
    background: linear-gradient(rgba(220, 222, 232, 0.95),rgba(147, 150, 187, 0.95) );
    border: 1px solid #2E4057;
    border-radius: 0.25rem;
@@ -357,7 +352,7 @@
     color: #639aa9;
   }
 
-  #mini-sc:hover, #mini-fb:hover, #mini-bc:hover {
+  #mini-sc:hover, #mini-fb:hover, #mini-bc:hover, #spot:hover {
     font-size: 1.6vw;
   }
 
