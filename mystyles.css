@@ -197,6 +197,10 @@
     margin: 5% auto;
   }
 
+  #alpha {
+    background-image: url(images/alpha.png)
+  }
+
   #wheels {
     background-image: url(images/wheels/wheels_release_poster.png)
   }
