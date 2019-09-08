@@ -194,7 +194,11 @@
     background-repeat: no-repeat;
     height: 30vw;
     width: 50%;
-    margin: 5% auto;
+    margin: 3% auto 1% auto;
+  }
+
+  #tour-2019 {
+    background-image: url(images/2019tourdates.png)
   }
 
   #alpha {
