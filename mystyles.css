@@ -413,6 +413,11 @@
 
   .post {
     width: 50%;
+    display: none;
+  }
+
+  .show {
+    display: block;
   }
 
   .post-title {
@@ -446,6 +451,26 @@
     width: 50%;
     margin: 0 auto;
   }
+
+  #news-controls {
+    margin: 0 25%;
+    width: 50%;
+  }
+
+  #news-controls li {
+    list-style: none;
+    margin: 5px 25%;
+    width: 50%;
+    text-align: center;
+  }
+
+  #news-controls li span {
+    cursor: pointer;
+    color: #ECA72C;
+    font-family: 'Exo';
+  }
+
+  #less-news-button { display: none; }
 
   #contact {display: none;}
 }
