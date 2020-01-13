@@ -75,13 +75,9 @@
   text-shadow: 2px 1px #221E22;
 }*/
 
-  #mini-contact {
-    display: none
-  }
+  #mini-contact { display: none }
 
-  section {
-    padding-top: 200px;
-  }
+  section { padding-top: 200px; }
 
   #music{
     width: 100%;
@@ -131,10 +127,12 @@
     text-align:center;
   }
 
-  .release-text a, .post-content a {
+  .release-text a {
     color:#0f91ff;
     text-decoration: none;
   }
+
+  .post-content a { color:#2c5793; }    
 
   .bc-button {
     background: 
@@ -155,16 +153,17 @@
   }
 
   .post {
-   background: linear-gradient(rgba(220, 222, 232, 0.95),rgba(147, 150, 187, 0.95) );
-   border: 1px solid #2E4057;
-   border-radius: 0.25rem;
-   margin: 2% auto;
-   padding: 1%;
-   width: 66%;
-   color: #2c5793;
-   -webkit-box-shadow: 0 8px 6px -6px black;
+    background: linear-gradient(rgba(220, 222, 232, 0.95),rgba(147, 150, 187, 0.95) );
+    border: 1px solid #2E4057;
+    border-radius: 0.25rem;
+    margin: 2% auto;
+    padding: 1%;
+    width: 66%;
+    color: #2c5793;
+    -webkit-box-shadow: 0 8px 6px -6px black;
     -moz-box-shadow: 0 8px 6px -6px black;
     box-shadow: 0 8px 6px -6px black;
+    display: none;
   }
   
   .post-date {
@@ -197,29 +196,17 @@
     margin: 3% auto 1% auto;
   }
 
-  #tour-2019 {
-    background-image: url(images/2019tourdates.png)
-  }
+  #tour-2019 { background-image: url(images/2019tourdates.png) }
 
-  #alpha {
-    background-image: url(images/alpha.png)
-  }
+  #alpha { background-image: url(images/alpha.png) }
 
-  #wheels {
-    background-image: url(images/wheels/wheels_release_poster.png)
-  }
+  #wheels { background-image: url(images/wheels/wheels_release_poster.png) }
 
-  #sky {
-    background-image: url(images/wheels/sky/sky_release_poster.png);
-  }
+  #sky { background-image: url(images/wheels/sky/sky_release_poster.png); }
 
-  #heartbeat {
-    background-image: url(images/heartbeatcover.jpg);
-  }
+  #heartbeat { background-image: url(images/heartbeatcover.jpg); }
 
-  #paste {
-    width: 650px;
-  }
+  #paste { width: 650px; }
 
   footer {
     width: 100%;
@@ -245,23 +232,42 @@
     height: 30px;
   }
 
-  #fb {
-    color:#3b5998;
-  }
+  #fb { color:#3b5998; }
 
   #sc {
     color:#ff5500;
     margin: 0 4%;
   }
 
-  #bc {
-    color: #639aa9;
-  }
+  #bc { color: #639aa9; }
 
   #spot {
     color: #1fd662;
     margin-left: 4%;
   }
+
+  .show { display: block; }
+
+  #news-controls {
+    margin: 0 25%;
+    width: 50%;
+  }
+
+  #news-controls li {
+    list-style: none;
+    margin: 35px 25%;
+    width: 50%;
+    text-align: center;
+    font-size: 28px;
+  }
+
+  #news-controls li span {
+    cursor: pointer;
+    color: #ECA72C;
+    font-family: 'Exo';
+  }
+
+  #less-news-button { display: none; }
 }
 
 @media screen and (min-device-width: 700px) {
@@ -387,7 +393,7 @@
     margin-top: 0;
   }
 
-  .release-text > p{
+  .release-text > p {
     font-size: 1.5rem;
   }
 
@@ -397,28 +403,17 @@
     box-shadow: inset 0 0 10px #000000;
   }
 
-  .release-text a, .post-content a  {
+  .release-text a {
     color:#0f91ff;
     margin-top: 20px;
     transition: 0.21111s;
   }
 
-  .release-text a:hover, .post-content a:hover {
-    color: #ECA72C;
-  }
+  .release-text a:hover, .post-content a:hover { color: #ECA72C; }
 
-  #news {
-    width: 100%;
-  }
+  #news { width: 100%; }
 
-  .post {
-    width: 50%;
-    display: none;
-  }
-
-  .show {
-    display: block;
-  }
+  .post { width: 50%; }
 
   .post-title {
     font-family: 'Bungee Inline';
@@ -452,25 +447,5 @@
     margin: 0 auto;
   }
 
-  #news-controls {
-    margin: 0 25%;
-    width: 50%;
-  }
-
-  #news-controls li {
-    list-style: none;
-    margin: 5px 25%;
-    width: 50%;
-    text-align: center;
-  }
-
-  #news-controls li span {
-    cursor: pointer;
-    color: #ECA72C;
-    font-family: 'Exo';
-  }
-
-  #less-news-button { display: none; }
-
-  #contact {display: none;}
+  #contact { display: none; }
 }
