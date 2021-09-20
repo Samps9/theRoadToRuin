@@ -51,29 +51,20 @@
     box-shadow: 0 8px 6px -6px black;
   }
 
-/*nav {
-  background: 
-      linear-gradient(
-        rgba(38, 38, 38, 0.95), 
-        rgba(38, 38, 38, 0.95)
-      );   
-}*/
+  nav { 
+    margin: 0 auto; 
+    text-align: center;
+  }
 
-/*nav a {
-  float: left;
-  display: block;
-  color:#0f91ff;
-  text-decoration: none;
-  font-family: 'Bungee Inline';
-  font-size: 1.5em;
-  text-shadow: 2px 1px #2c5793;
-  width: 31%;
-  text-align: center;
-  padding: 1%;
-  text-decoration: none;
-  border-left: 1px solid #2E4057;
-  text-shadow: 2px 1px #221E22;
-}*/
+  nav a {
+    color:#0f91ff;
+    text-decoration: none;
+    font-family: 'Bungee Inline';
+    font-size: 1.5em;
+    padding: 1%;
+    text-decoration: none;
+    text-shadow: 2px 1px #221E22;
+  }
 
   #mini-contact { display: none }
 
