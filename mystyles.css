@@ -210,6 +210,7 @@
   #contact {
     width: 100%;
     display: inline-block;
+    margin-bottom: 200px;
   }
 
   #contact h6 {
@@ -305,26 +306,28 @@
 @media screen and ( min-device-width: 1600px){
 
   #title-header {
-    display: flex;
     width: 100%;
+    margin: 0 auto;
     border-top: 1px solid rgba(38, 38, 38, 0.95);
   }
 
   #title-image {
-    width: 70%;
+    width: 100%;
   }
 
-  #mini-contact {
+  /*#mini-contact {
     display: inline-block;
     width: 10%;
     position: fixed;
     left: 1%;
-    top: -1%;
+    top: 160px;
+    display: flex;
   }
 
-  #mini-contact h6 {
+  #mini-contact span {
+    display: inline-block;
     position: relative;
-    font-size: 0.85vw;
+    font-size: 0.75vw;
     font-family: 'Exo', sans-serif;
     font-style: regular;
     color: #ECA72C;
@@ -335,13 +338,14 @@
   #mini-contact a {
     text-decoration: none;
     position: relative;
-    top: 15%;
+    top: 20px;
     left: 20%;
   }
 
   #mini-contact a i {
-    font-size: 1.5vw;
-    transition: 0.21111s
+    font-size: 1vw;
+    transition: 0.21111s;
+    padding-right: 10px;
   }
 
   #mini-fb {
@@ -361,7 +365,7 @@
 
   #mini-sc:hover, #mini-fb:hover, #mini-bc:hover, #spot:hoverq {
     font-size: 1.6vw;
-  }
+  }*/
 
   #music{
     width: 100%;
@@ -440,5 +444,5 @@
     margin: 0 auto;
   }
 
-  #contact { display: none; }
+  /*#contact { display: none; }*/
 }
