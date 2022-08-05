@@ -54,6 +54,7 @@
   nav { 
     margin: 0 auto; 
     text-align: center;
+    padding-top: 10px;
   }
 
   nav a {
@@ -81,6 +82,16 @@
     font-size: 3.2em;
     color: #ECA72C;
     text-shadow: 2px 1px #2c5793;
+  }
+
+  .video-player > iframe {
+    height: 650px;
+    width: 850px;
+    border: 1px solid #2E4057;
+    border-radius: 0.25rem;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
   }
 
   .release{
@@ -186,6 +197,8 @@
     width: 50%;
     margin: 3% auto 1% auto;
   }
+
+  #pp-bar-show { background-image: url(images/ppbarshow.jpg); }
 
   #tour-2019 { background-image: url(images/2019tourdates.png) }
 
