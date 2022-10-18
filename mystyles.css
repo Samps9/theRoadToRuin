@@ -291,6 +291,10 @@
 }
 
 @media screen and (min-device-width: 1400px) {
+  #title-image {
+    width: 100%;
+    height: 7vw;
+  }
   .release {
     display: grid;
     grid-gap: 50px;
@@ -308,7 +312,6 @@
     border: 1px solid #2E4057;
     border-radius: 0.25rem;
   }
-
   .release-text {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -322,10 +325,6 @@
     width: 100%;
     margin: 0 auto;
     border-top: 1px solid rgba(38, 38, 38, 0.95);
-  }
-
-  #title-image {
-    width: 100%;
   }
 
   /*#mini-contact {
