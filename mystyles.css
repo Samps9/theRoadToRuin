@@ -290,6 +290,12 @@
   .release{
     width: 650px;
   }
+  .release-text a:hover, .post-content a:hover { color: #ECA72C; }
+  .bc-button:hover {
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+  }
 }
 
 @media screen and (min-device-width: 1400px) {
@@ -408,19 +414,11 @@
     font-size: 1.5rem;
   }
 
-  .bc-button:hover {
-    -moz-box-shadow: inset 0 0 10px #000000;
-    -webkit-box-shadow: inset 0 0 10px #000000;
-    box-shadow: inset 0 0 10px #000000;
-  }
-
   .release-text a {
     color:#0f91ff;
     margin-top: 20px;
     transition: 0.21111s;
   }
-
-  .release-text a:hover, .post-content a:hover { color: #ECA72C; }
 
   #news { width: 100%; }
 
