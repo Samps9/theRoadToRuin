@@ -1,22 +1,33 @@
 document.addEventListener("DOMContentLoaded", function() {
-	displayRecentNews();
-	document.getElementById("more-news-button").addEventListener("click", showMoreNews);
-	document.getElementById("less-news-button").addEventListener("click", showLessNews);
+	// displayRecentNews() is now called by content-renderer.js after news posts are loaded
+	// Wait a bit for the news to be rendered, then attach event listeners
+	setTimeout(function() {
+		const moreButton = document.getElementById("more-news-button");
+		const lessButton = document.getElementById("less-news-button");
+		if (moreButton) moreButton.addEventListener("click", showMoreNews);
+		if (lessButton) lessButton.addEventListener("click", showLessNews);
+	}, 100);
 })
 
 function displayRecentNews() {
 	let i = 0
-	while(i < 3) {
-		document.getElementsByClassName("post")[i].classList.add("show");
+	const posts = document.getElementsByClassName("post");
+	while(i < 3 && i < posts.length) {
+		if (posts[i]) {
+			posts[i].classList.add("show");
+		}
 		i++
 	}
 }
 
 function showMoreNews() {
-	let lastVisiblePostId = Array.from(document.getElementsByClassName("post")).filter(function(post) { return post.classList.contains("show") }).length - 1;
+	const posts = document.getElementsByClassName("post");
+	let lastVisiblePostId = Array.from(posts).filter(function(post) { return post.classList.contains("show") }).length - 1;
 	let nextPostId = lastVisiblePostId + 1;
-	while (nextPostId < lastVisiblePostId + 4) {
-		document.getElementsByClassName("post")[nextPostId].classList.add("show");
+	while (nextPostId < lastVisiblePostId + 4 && nextPostId < posts.length) {
+		if (posts[nextPostId]) {
+			posts[nextPostId].classList.add("show");
+		}
 		nextPostId++;
 	}
 
@@ -24,10 +35,13 @@ function showMoreNews() {
 }
 
 function showLessNews() {
-	let lastVisiblePostId = Array.from(document.getElementsByClassName("post")).filter(function(post) { return post.classList.contains("show") }).length - 1;
+	const posts = document.getElementsByClassName("post");
+	let lastVisiblePostId = Array.from(posts).filter(function(post) { return post.classList.contains("show") }).length - 1;
 	let nextPostId = lastVisiblePostId
-	while (nextPostId > lastVisiblePostId - 3) {
-		document.getElementsByClassName("post")[nextPostId].classList.remove("show");
+	while (nextPostId > lastVisiblePostId - 3 && nextPostId >= 0) {
+		if (posts[nextPostId]) {
+			posts[nextPostId].classList.remove("show");
+		}
 		nextPostId--;
 	}
 

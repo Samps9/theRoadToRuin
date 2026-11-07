@@ -1,0 +1,65 @@
+[
+  {
+    "id": "original-cynic-album",
+    "title": "Original Cynic",
+    "type": "album",
+    "bandcampEmbedUrl": "https://bandcamp.com/EmbeddedPlayer/album=4121088633/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true",
+    "bandcampUrl": "https://theroadtoruin.bandcamp.com/album/original-cynic"
+  },
+  {
+    "id": "occasion-by-occasion",
+    "title": "Occasion by Occasion",
+    "type": "single",
+    "bandcampEmbedUrl": "https://bandcamp.com/EmbeddedPlayer/track=3077439215/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/",
+    "bandcampUrl": "https://theroadtoruin.bandcamp.com/track/occasion-by-occasion"
+  },
+  {
+    "id": "original-cynic-single",
+    "title": "Original Cynic",
+    "type": "single",
+    "bandcampEmbedUrl": "https://bandcamp.com/EmbeddedPlayer/track=1567907278/size=large/bgcol=333333/linkcol=0f91ff//tracklist=false/transparent=true/",
+    "bandcampUrl": "https://theroadtoruin.bandcamp.com/track/original-cynic"
+  },
+  {
+    "id": "american-pie-in-the-sky",
+    "title": "American Pie In The Sky",
+    "type": "single",
+    "bandcampEmbedUrl": "https://bandcamp.com/EmbeddedPlayer/track=3890609385/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/",
+    "bandcampUrl": "https://theroadtoruin.bandcamp.com/track/american-pie-in-the-sky"
+  },
+  {
+    "id": "i-am-a-planet-sleepyhead",
+    "title": "I Am a Planet / Sleepyhead",
+    "type": "single",
+    "bandcampEmbedUrl": "https://bandcamp.com/EmbeddedPlayer/album=3371399068/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/",
+    "bandcampUrl": "https://theroadtoruin.bandcamp.com/album/i-am-a-planet-sleepyhead"
+  },
+  {
+    "id": "dont-envy-the-wheels",
+    "title": "Don't Envy The Wheels",
+    "type": "album",
+    "bandcampEmbedUrl": "https://bandcamp.com/EmbeddedPlayer/album=3385436685/size=large/bgcol=333333/linkcol=0687f5/tracklist=false/transparent=true/",
+    "bandcampUrl": "https://theroadtoruin.bandcamp.com/album/dont-envy-the-wheels"
+  },
+  {
+    "id": "heartbeat-from-the-next-step",
+    "title": "Heartbeat From The Next Step",
+    "type": "album",
+    "bandcampEmbedUrl": "https://bandcamp.com/EmbeddedPlayer/album=161452485/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/",
+    "bandcampUrl": "https://theroadtoruin.bandcamp.com/album/heartbeat-from-the-next-step"
+  },
+  {
+    "id": "the-night-the-saucers-came",
+    "title": "The Night The Saucers Came",
+    "type": "album",
+    "bandcampEmbedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1163935108/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/",
+    "bandcampUrl": "https://theroadtoruin.bandcamp.com/album/the-night-the-saucers-came"
+  },
+  {
+    "id": "danger-on-the-beaches",
+    "title": "Danger On The Beaches",
+    "type": "album",
+    "bandcampEmbedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1917895920/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/",
+    "bandcampUrl": "https://theroadtoruin.bandcamp.com/album/danger-on-the-beaches"
+  }
+]

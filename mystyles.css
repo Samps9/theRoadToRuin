@@ -92,6 +92,7 @@
     -webkit-box-shadow: 0 8px 6px -6px black;
     -moz-box-shadow: 0 8px 6px -6px black;
     box-shadow: 0 8px 6px -6px black;
+    margin-bottom: 10px;
   }
 
   .release{
@@ -198,21 +199,7 @@
     margin: 3% auto 1% auto;
   }
 
-  #pp-bar-show { background-image: url(images/ppbarshow.jpg); }
-
-  #tour-2019 { background-image: url(images/2019tourdates.png) }
-
-  #cynic-single-release { background-image: url(images/cynic-cover.jpeg) }
-
-  #cynic-release-show { background-image: url(images/cynic_release_show.jpg) }
-
-  #alpha { background-image: url(images/alpha.png) }
-
-  #wheels { background-image: url(images/wheels/wheels_release_poster.png) }
-
-  #sky { background-image: url(images/wheels/sky/sky_release_poster.png); }
-
-  #heartbeat { background-image: url(images/heartbeatcover.jpg); }
+  /* Image backgrounds are now set dynamically via JavaScript */
 
   #paste { width: 650px; }
 
@@ -252,6 +239,11 @@
 
   #spot {
     color: #1fd662;
+    margin-left: 4%;
+  }
+
+  #ig {
+    color: #f94fc1;
     margin-left: 4%;
   }
 
@@ -438,23 +430,7 @@
     font-size: 1.4rem;
   }
 
-  #sky {
-    background-image: url(images/wheels/sky/sky_release_poster.png);
-    background-size: contain; 
-    background-repeat: no-repeat;
-    height: 30vw;
-    width: 50%;
-    margin: 0 auto;
-  }
-
-  #heartbeat {
-    background-image: url(images/heartbeatcover.jpg);
-    background-size: contain; 
-    background-repeat: no-repeat;
-    height: 30vw;
-    width: 50%;
-    margin: 0 auto;
-  }
+  /* Image backgrounds for sky and heartbeat are now set dynamically via JavaScript */
 
   /*#contact { display: none; }*/
 }
